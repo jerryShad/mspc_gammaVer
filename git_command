@@ -1,0 +1,11 @@
+# This is the quite helpful git command for uploading project to github
+
+cd /path/to/my/repo
+rm -rf .git
+git init
+git add --all
+git commit -m "Initial commit"
+git remote add origin "https://github.com/julaiti/MSPC.git"
+$ git pull --rebase origin master
+git push -u origin master
+$ git pull origin master
